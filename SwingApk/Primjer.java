@@ -15,16 +15,16 @@ public class Primjer extends JFrame{
 		ly.setAlignment(FlowLayout.CENTER);
 		setLayout(ly);
 		
-		add(new JButton("kurac"));
+		add(new JButton("gumb1"));
 		add(new JButton(str));
-		add(new JButton("dinamo"));
-		add(new JButton("mar"));
-		add(new JButton("ma nemoj"));
+		add(new JButton("gumb2"));
+		add(new JButton("bla"));
+		add(new JButton("Jerko"));
 	}
 	public static void main(String[] args) {
 		try {
 			SwingUtilities.invokeAndWait(()-> {
-				JFrame wnd = new Primjer("picka sisa");
+				JFrame wnd = new Primjer("tekst");
 				wnd.pack();	
 				wnd.setLocation(500 , 500);
 				wnd.setVisible(true);
