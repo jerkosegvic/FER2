@@ -1,2 +1,2 @@
-# FER2
+# FER
 Nastava
